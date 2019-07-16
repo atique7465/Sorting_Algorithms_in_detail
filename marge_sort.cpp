@@ -1,5 +1,5 @@
 //-------------------------------------------------------
-/// marge sort implementation using backtracking.
+/// marge sort implementation using devide & conquer ( recursion ) technique.
 /// Time Complexity:  O(n log n).
 /// Space Complexity:  O(n).
 //-------------------------------------------------------
