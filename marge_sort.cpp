@@ -1,3 +1,9 @@
+//-------------------------------------------------------
+/// marge sort implementation using backtracking.
+/// Time Complexity:  O(n log n).
+/// Space Complexity:  O(n).
+//-------------------------------------------------------
+
 #include<bits/stdc++.h>
 #define ll long long int
 using namespace std;
