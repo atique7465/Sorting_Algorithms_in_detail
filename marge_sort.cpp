@@ -10,7 +10,7 @@ using namespace std;
 
 void marge_sort(ll a[],ll s, ll f)
 {
-    if(s==f)
+    if(s>=f)
         return;
     ll m=(s+f)/2;
     marge_sort(a,s,m);
