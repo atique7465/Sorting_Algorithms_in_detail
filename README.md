@@ -44,7 +44,7 @@ Not In Place : Extra memory use grows as input size. like Marge sort.
 
 - Not Stable. Because of line 17 in quick_sort.cpp code.
 
-- In Place. Constant Extra Space .
+- In Place. Constant Extra Space Complexity:  O(log n) in average, O(n) in worst case. Most of the time the algorithm works in average case, so memory is not a matter of concern.
 
 - Time complexity: O(n log n) in average case. O(n^2) is worst case but this can be avoided by using Randomized Quick sort. In Practical scenarios Quick sort is pretty fast.
 
