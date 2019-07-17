@@ -39,6 +39,7 @@ Not In Place : Extra memory use grows as input size. like Marge sort.
 - Time complexity: O(n log n).
 
 - [ ] **Properties of Quick SORT Algorithm**
+- Divide & conquer
 
 - Recursive
 
