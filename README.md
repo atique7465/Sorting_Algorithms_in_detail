@@ -9,6 +9,7 @@
 - String often sorted lexicographic ally.
 
 - complex data types like structures are sorted according to a specific property.
+----------------------------------------------------------------------------------------------------------------------------------------
 
 - [ ] **Sorting Algorithms Classification Parameters:**
 
@@ -23,6 +24,7 @@ Not In Place : Extra memory use grows as input size. like Marge sort.
 - Internal or External sort : if all records are in main memory or RAM its internal sort. if records are in external storage like disk its external sort.
 
 - Recursive or non Recursive : marge & quick are recursive. Insertion & selection are non recursive.
+----------------------------------------------------------------------------------------------------------------------------------------
 
 - [ ] **Properties of MARGE SORT Algorithm**
 
