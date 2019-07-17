@@ -32,6 +32,6 @@ Not In Place : Extra memory use grows as input size. like Marge sort.
 
 - Stable
 
-- Not In Place. Space complexity -> O(n log n).
+- Not In Place. Extra Space complexity -> O(n).
 
 - Time complexity: O(n log n).
