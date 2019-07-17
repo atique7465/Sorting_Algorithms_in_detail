@@ -23,3 +23,15 @@ Not In Place : Extra memory use grows as input size. like Marge sort.
 - Internal or External sort : if all records are in main memory or RAM its internal sort. if records are in external storage like disk its external sort.
 
 - Recursive or non Recursive : marge & quick are recursive. Insertion & selection are non recursive.
+
+- [ ] **Properties of MARGE SORT Algorithm**
+
+- Divide & conquer
+
+- Recursive
+
+- Stable
+
+- Not In Place. Space complexity -> O(n).
+
+- Time complexity: O(n log n).
