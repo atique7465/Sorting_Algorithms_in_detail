@@ -28,20 +28,20 @@ Not In Place : Extra memory use grows as input size. like Marge sort.
 
 - [ ] **Properties of MARGE SORT Algorithm**
 
-- Divide & conquer
+- Divide & conquer.
 
-- Recursive
+- Recursive.
 
-- Stable
+- Stable.
 
 - Not In Place. Extra Space complexity -> O(n).
 
 - Time complexity: O(n log n).
 
 - [ ] **Properties of Quick SORT Algorithm**
-- Divide & conquer
+- Divide & conquer.
 
-- Recursive
+- Recursive.
 
 - Not Stable. Because of line 17 in quick_sort.cpp code.
 
