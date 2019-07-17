@@ -42,7 +42,7 @@ Not In Place : Extra memory use grows as input size. like Marge sort.
 
 - Recursive
 
-- Stable
+- Not Stable. Because of line 17 in quick_sort.cpp code.
 
 - In Place. Constant Extra Space .
 
