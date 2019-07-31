@@ -53,7 +53,7 @@ Not In Place : Extra memory use grows as input size. like Marge sort.
 
 - [ ] **Properties of Selection Sort algorithm**
 
-- Non Recursive.
+- Recursive / Non Recursive.
 
 - in place.
 
