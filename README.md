@@ -63,7 +63,8 @@ Not In Place : Extra memory use grows as input size. like Marge sort.
 - it can be stable
 [https://www.geeksforgeeks.org/stable-selection-sort/](url)
 
-- Time complexity : O (n^2).
+- Time complexity : O (n^2).  for stable implementation.
+- Time complexity : O (n^3).  for unstable implementation.
 
 - [ ] **Resource :**
 [https://www.youtube.com/watch?v=pkkFqlG0Hds&list=PL2_aWCzGMAwKedT2KfDMB9YA5DgASZb3U&index=2&t=0s](url)
