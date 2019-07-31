@@ -1,8 +1,8 @@
-//------------------------------------------------------------------------------
+//-------------------------------------------------------------------------------------------------------------------------------------
 /// quick sort implementation using divide & conquer ( recursion ) technique.
-/// Time Complexity:  O(n log n) in Average case , O(n^2) in worst case.
+/// Time Complexity:  O(n log n) in Average case , O(n^2) in worst case. Practically O(n log n) in randomized pivot selection approach.
 /// Space Complexity:  O(log n) in average, O(n) in worst case.
-//------------------------------------------------------------------------------
+//-------------------------------------------------------------------------------------------------------------------------------------
 
 #include<bits/stdc++.h>
 #define ll long long int
