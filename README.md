@@ -51,9 +51,6 @@ Not In Place : Extra memory use grows as input size. like Marge sort.
 
 - Sort functions in language libraries most of them are implantation of quick sort. 
 
-- [ ] **Resource :**
-[https://www.youtube.com/watch?v=pkkFqlG0Hds&list=PL2_aWCzGMAwKedT2KfDMB9YA5DgASZb3U&index=2&t=0s](url)
-
 - [ ] **Properties of Selection Sort algorithm**
 
 - Non Recursive.
@@ -67,3 +64,6 @@ Not In Place : Extra memory use grows as input size. like Marge sort.
 [https://www.geeksforgeeks.org/stable-selection-sort/](url)
 
 - Time complexity : O (n^2).
+
+- [ ] **Resource :**
+[https://www.youtube.com/watch?v=pkkFqlG0Hds&list=PL2_aWCzGMAwKedT2KfDMB9YA5DgASZb3U&index=2&t=0s](url)
