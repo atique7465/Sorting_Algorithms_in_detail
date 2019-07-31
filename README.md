@@ -74,5 +74,12 @@ Not In Place : Extra memory use grows as input size. like Marge sort.
 
 - Time complexity: O(^2).
 
+- [ ] **Properties of BUBBLE SORT Algorithm**
+
+- Stable
+- In Place as, Space Complexity : O(1) extra space
+- Time Complexity : O(n^2), comparisons and swaps
+- Adaptive: O(n) when nearly sorted
+
 - [ ] **Resource :**
 [https://www.youtube.com/watch?v=pkkFqlG0Hds&list=PL2_aWCzGMAwKedT2KfDMB9YA5DgASZb3U&index=2&t=0s](url)
