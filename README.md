@@ -54,3 +54,16 @@ Not In Place : Extra memory use grows as input size. like Marge sort.
 - [ ] **Resource :**
 [https://www.youtube.com/watch?v=pkkFqlG0Hds&list=PL2_aWCzGMAwKedT2KfDMB9YA5DgASZb3U&index=2&t=0s](url)
 
+- [ ] **Properties of Selection Sort algorithm**
+
+- Non Recursive.
+
+- in place.
+
+- Not Stable
+ [https://www.quora.com/Why-is-a-selection-sort-algorithm-not-stable](url)
+
+- it can be stable
+[https://www.geeksforgeeks.org/stable-selection-sort/](url)
+
+- Time complexity : O (n^2).
