@@ -49,7 +49,7 @@ Not In Place : Extra memory use grows as input size. like Marge sort.
 
 - Time complexity: O(n log n) in average case. O(n^2) is worst case but this can be avoided by using Randomized Quick sort. In Practical scenarios Quick sort is pretty fast.
 
-- Sort functions in language libraries most of them are implantation of quick sort. 
+- Most of the Sort functions in language libraries are implantation of quick sort. 
 
 - [ ] **Properties of Selection Sort algorithm**
 
