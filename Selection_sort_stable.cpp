@@ -1,4 +1,4 @@
-/// Time Complexity : O (n^3).
+/// Time Complexity : O (n^2).
 /// Recursive & stable & not in place.
 /// can be implemented iteratively.
 
