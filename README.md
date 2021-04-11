@@ -1,4 +1,4 @@
-# Sorting_Algorithms_in_detail 😃 😄 
+# Sorting_Algorithms_in_detail 
 
 - [ ] **Formal Definition : _Arranging the elements in a list or collection in increasing or decreasing order of some property._**
 
