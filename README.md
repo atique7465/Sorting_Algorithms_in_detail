@@ -41,7 +41,7 @@ Not In Place : Extra memory use grows as input size. like Marge sort.
 ```
 01. calculate mid -> c
 02. copy teo array -> n/2 + n/2 = n.c
-03. t time call merge function with n/2 -> 2.T(n/2)
+03. 2 time call merge function with n/2 elements -> 2.T(n/2)
 
 constant timr to merge each element  = c;
 
