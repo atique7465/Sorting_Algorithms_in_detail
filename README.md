@@ -37,19 +37,6 @@ Not In Place : Extra memory use grows as input size. like Marge sort.
 - Not In Place. Extra Space complexity -> O(n).
 
 - Time complexity: O(n log n).
-
-- [ ] **Properties of Quick SORT Algorithm**
-- Divide & conquer.
-
-- Recursive.
-
-- Not Stable. Because of line 17 in quick_sort.cpp code.
-
-- In Place. Constant Extra Space Complexity:  O(log n) in average, O(n) in worst case. Most of the time the algorithm works in average case, so memory is not a matter of concern.
-
-- Time complexity: O(n log n) in average case. O(n^2) is worst case but this can be avoided by using Randomized Quick sort. In Practical scenarios Quick sort is pretty fast.
-
-- Most of the Sort functions in language libraries are implantation of quick sort. 
 - Time Complexity Proof
 ```
 01. calculate mid -> c
@@ -92,6 +79,19 @@ So. merge sort Time Complexity is: O(nlogn)
       log2(n) = x
       2^log2(n) = 2^x = n]
 ```
+
+- [ ] **Properties of Quick SORT Algorithm**
+- Divide & conquer.
+
+- Recursive.
+
+- Not Stable. Because of line 17 in quick_sort.cpp code.
+
+- In Place. Constant Extra Space Complexity:  O(log n) in average, O(n) in worst case. Most of the time the algorithm works in average case, so memory is not a matter of concern.
+
+- Time complexity: O(n log n) in average case. O(n^2) is worst case but this can be avoided by using Randomized Quick sort. In Practical scenarios Quick sort is pretty fast.
+
+- Most of the Sort functions in language libraries are implantation of quick sort. 
 
 - [ ] **Properties of Selection Sort algorithm**
 
