@@ -50,6 +50,48 @@ Not In Place : Extra memory use grows as input size. like Marge sort.
 - Time complexity: O(n log n) in average case. O(n^2) is worst case but this can be avoided by using Randomized Quick sort. In Practical scenarios Quick sort is pretty fast.
 
 - Most of the Sort functions in language libraries are implantation of quick sort. 
+- Time Complexity Proof
+```
+01. calculate mid -> c
+02. copy teo array -> n/2 + n/2 = n.c
+03. t time call merge function with n/2 -> 2.T(n/2)
+
+constant timr to merge each element  = c;
+
+T(n) = c + c.n + 2.T(n/2) ..... (1)
+
+T(n/2) = c + c.n/2 + 2.T(n/4) ....(2)
+
+T(n/4) = c + c.n/4 + 2.T(n/8) ....(3)
+
+.
+.
+.
+T(n/2^k) = c + c.n/2^k + 2.T(n/2^k) ....(4)
+
+Modified (1)
+T(n) = n.c + 2.T(n/2)
+     = n.c + 2.(c.n/2 + 2.T(n/4)) [Applying equation (2)]
+     = 2.n.c + 4.T(n/4)
+     = 2.n.c + 4.(c.n/4 + 2.T(n/8)) [Applying equation (3)]
+     = 3.n.c + 8.T(n/8)
+     .
+     .
+     = k.n.c + 2^k.T(n/2^k)
+in last devidation n/2^k = 1
+                   n = 2^k
+                   k = log2(n) ...(5)
+
+So, T(n) = log2(n).n.c + 2^log2(n).T(n/2^log2(n)) [Applying equation (5)]
+         = n.log(n).c + n.T(n/n)
+         = n.log(n) + n
+         = n.log(n)
+So. merge sort Time Complexity is: O(nlogn)
+
+[Note n = 2^x
+      log2(n) = x
+      2^log2(n) = 2^x = n]
+```
 
 - [ ] **Properties of Selection Sort algorithm**
 
